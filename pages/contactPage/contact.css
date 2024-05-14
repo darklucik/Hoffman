@@ -1,0 +1,41 @@
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main section {
+    text-align: center;
+}
+
+main section h2 {
+    color: #4CAF50;
+}
+
+main section p {
+    margin-bottom: 20px;
+}
+
+.main section form input[type="text"],
+.main section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main section form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main section form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+img {
+    border-radius: 12px;
+    width: 500px;
+    height: 800px;
+}
